@@ -21,7 +21,7 @@ for i in range (num_students):
  #Calculating the average
 
  if counter == (num_students):
-    average = sum(grade_list) / (num_students)
+    average = round(sum(grade_list) / (num_students), 2)
     print("The average grade is: ", average)
     print("The number of students that passed are: ", passed)
     print("The number of students that failed are: ", counter - passed)
